@@ -1,0 +1,16 @@
+1) Describe any design decisions you made. These may be minimal for Lab 1
+	In the Catalog, I decide to use three fields to represent all the information in the catalog, and these three list is corresponding to each other instead of 	creating a new class to include all these three fields.
+	In the BufferPool, I decide to use a list of Page to store all the pages in the bufferPool
+	I create my own HeapFileIterator class that is used by the iterator() method from the HeapFile
+	For the whole flow of the simple database, I follow the instruction from the lecture(who calls whom).
+	I followed all other design decisions according to spec requirement. 
+
+2) Discuss and justify any changes you made to the API
+	I implement the methods required following the spec and javadoc. 
+	Nothing changes for the given API besides the classes that required to implement.
+	
+3) Describe any missing or incomplete elements of your code
+	Nothing as far as I know. 
+
+4) Describe how long you spent on the lab, and whether there was anything you found particularly difficult or confusing
+  	I spent about 15 hours for the lab, and one thing I found was particular difficult is that the constructor for the heap file. Since first it is hard to think up to transforming File to the byte[] (this part took me a lot of times, maybe several hours) and second I have never done anything related to transfer File to a byte[].
